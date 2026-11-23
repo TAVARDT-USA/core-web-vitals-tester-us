@@ -63,7 +63,7 @@ def audit_core_web_vitals(target_url):
             raw_data = resp.read()
             t_total = time.perf_counter() - t0
             status_code = resp.status
-            content_encoding = resp.headers.get("Content-Encoding", "nenhuma / identity")
+            content_encoding = resp.headers.get("Content-Encoding", "none / identity")
             charset = resp.headers.get_content_charset() or "utf-8"
             
             # Decompress if necessary
