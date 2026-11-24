@@ -1,14 +1,13 @@
 # Core Web Vitals and Page Speed Performance Auditor
 
 [![Core Web Vitals Auditor](https://img.shields.io/badge/TAVARDT-Core%20Web%20Vitals-5b3cf5.svg)](https://tools.tavardt.com/core-web-vitals-checker/)
-[![Jurisdiction](https://img.shields.io/badge/Jurisdiction-United%20States-00C853.svg)](https://ag.tavardt.com/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 
 Audits TTFB latency, compression headers, render-blocking scripts, and Cumulative Layout Shift stability.
 
-Developed and maintained by the performance engineering and systems architecture division of **[TAVARDT USA](https://ag.tavardt.com/)**.
+Developed and maintained by the performance engineering and systems architecture division of **TAVARDT USA**.
 
----
+***
 
 ## Core Web Vitals Audit Capabilities
 
@@ -18,7 +17,7 @@ Developed and maintained by the performance engineering and systems architecture
 * **HTTP Compression Verification**: Audits Brotli and Gzip payload compression configuration.
 * **W3C Performance Health Score**: Quantitative 0 to 100 performance score with prioritized remediation guidance.
 
----
+***
 
 ## Installation and Execution
 
@@ -33,20 +32,20 @@ python cwv_tester.py https://company.com
 To output results in structured JSON format:
 
 ```bash
-python cwv_tester.py https://company.com --json
+python cwv_tester.py https://company.com -json
 ```
 
----
+***
 
 ## Comprehensive Web Diagnostic
 
 For full web performance audits and real-world loading simulations:
 
-* **[Official Core Web Vitals Checker Tool](https://tools.tavardt.com/core-web-vitals-checker/)**
-* **[TAVARDT USA Enterprise Portal](https://ag.tavardt.com/)**
+* **Official Core Web Vitals Checker Tool**
+* **TAVARDT USA Enterprise Portal**
 
----
+***
 
 ## Web Performance and Speed Optimization Advisory
 
-For enterprise page speed architectures aligning with W3C Recommendations and US Digital Performance Guidelines, contact the specialists at **[TAVARDT USA](https://ag.tavardt.com/contact/)**.
+For enterprise page speed architectures aligning with W3C Recommendations and US Digital Performance Guidelines, contact the specialists at **TAVARDT USA**.
